@@ -1,0 +1,89 @@
+// Declare vibes (variables) using the "vibe" keyword
+vibe myRizz = 10 // Rizz level starts at 10, keep grinding to level up
+
+// Define a drip (function) to show off the rizz
+drip showRizz(name string) string {
+    return "Yo " + name + ", you've got the rizz!" // Compliments the name with their rizz
+}
+
+// Check aura levels with an infiniteAura (if-else) structure
+infiniteAura myRizz > 50 {
+    spill("Infinite aura activated, you're untouchable!") // Top-tier aura detected
+} lowKey myRizz > 20 {
+    spill("Decent aura, keep grinding!") // Middle-tier aura encouragement
+} nahBro {
+    spill("No aura detected, sorry fam!") // Lacking aura, needs work
+}
+
+// Loop to vibe (iteration) through and spill some messages
+grind i := 0; i < 10; i++ {
+    spill("Vibe #" + i + " in the house!") // Hype message for each iteration
+}
+
+// Handle sus situations (try-catch equivalent)
+sus {
+    // Risky code, tread carefully
+    spill("This is a high-risk move!") // Warn the user about risky behavior
+} caughtIn4K {
+    spill("Caught in 4K, bruh. You can't hide from this!") // Handle the caught situation
+}
+
+// Declare new vibes (variables) with different data types
+vibe rizzLevel num = 100 // Numeric type for levels of rizz
+vibe yourName txt = "Faizan" // Text type for names
+vibe isCool vibeCheck = true // Boolean vibe check, keep it 💯
+
+// Define a simp (class/structure) for storing simping data
+simp Crush {
+    vibe name txt // Name of the crush
+    vibe levelOfSimp num // How hard you're simping (scale of 1-100)
+}
+
+// Create an instance of a simp
+simp myCrush = {
+    name: "Zendaya",
+    levelOfSimp: 95
+}
+
+// Drip (method) to calculate simp score
+drip simpScore(s simp) num {
+    return s.levelOfSimp * 2 // Multiply simp level to calculate ultimate simp score
+}
+
+// Use a grind loop for repetitive tasks with no cap
+grind i := 1; i <= 5; i++ {
+    spill("Day #" + i + " of simping for " + myCrush.name) // Update daily simp log
+}
+
+// Introduce the bet (switch-case equivalent) for decision-making
+bet rizzLevel {
+    0..20 => spill("Certified L-taker, no rizz detected!") // Low rizz levels
+    21..50 => spill("Mid-rizz, you're on the rise!") // Average rizz levels
+    51..100 => spill("God-tier rizz, you're unstoppable!") // Peak rizz levels
+    default => spill("Undefined rizz, we need to study this specimen!") // Handle unknown rizz
+}
+
+// Add a bussin (array) to store data
+vibe snackTier txt[] = ["Takis", "Hot Cheetos", "Oreos"]
+
+// Loop through the bussin array
+grind snack in snackTier {
+    spill(snack + " is straight bussin, no cap!") // Praise the snacks
+}
+
+// Add some code to verify vibes
+vibe checkFit = "fire" // The fit is looking fire
+infiniteAura checkFit == "fire" {
+    spill("Your fit is 🔥, you're dripping!") // Compliment on the outfit
+} nahBro {
+    spill("That fit ain't it, chief.") // Suggest a wardrobe upgrade
+}
+
+// Drip (function) for calculating rizzy combos
+drip comboRizz(rizz1 num, rizz2 num) num {
+    return rizz1 + rizz2 // Sum up two rizz levels
+}
+
+// Test comboRizz function
+vibe combinedRizz = comboRizz(45, 55)
+spill("Your combined rizz level is: " + combinedRizz)

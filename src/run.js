@@ -1,5 +1,5 @@
 const fs = require("fs");
-const transpileGenZ = require("./transpile");
+const transpileGenZ = require("./transpile04");
 
 // Function to run Gen Z slang code
 function runGenZFile(filePath) {

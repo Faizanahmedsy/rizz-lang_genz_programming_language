@@ -1,0 +1,28 @@
+// Declare vibes (variables) using the "vibe" keyword
+vibe myRizz = 10 // Rizz level starts at 10, keep grinding to level up
+
+// Define a drip (function) to show off the rizz
+drip showRizz(name txt) txt {
+    return "Yo " + name + ", you've got the rizz!" // Compliments the name with their rizz
+}
+
+// Check aura levels with an infiniteAura (if-else) structure
+infiniteAura myRizz > 50 {
+    spill("Infinite aura activated, you're untouchable!") // Top-tier aura detected
+} lowKey myRizz > 20 {
+    spill("Decent aura, keep grinding!") // Middle-tier aura encouragement
+} nahBro {
+    spill("No aura detected, sorry fam!") // Lacking aura, needs work
+}
+
+// Grind loop for iteration
+grind i = 0; i < 10; i++ {
+    spill("Vibe #" + i + " in the house!") // Hype message for each iteration
+}
+
+// Bet (switch-case equivalent)
+bet myRizz {
+    0..20 => spill("Certified L-taker, no rizz detected!") // Low rizz levels
+    21..50 => spill("Mid-rizz, you're on the rise!") // Average rizz levels
+    default => spill("Undefined rizz, we need to study this specimen!") // Handle unknown rizz
+}
