@@ -1,0 +1,18 @@
+sus {
+    // risky code
+    spill("This is risky, bro!");
+} caughtIn4K {
+    spill("Caught in 4K, bruh.");
+}
+
+grind i := 0; i < 10; i++ {
+    print(i);
+}
+
+noCap x > 10 {
+    print("Big vibes!");
+} lowKey x > 5 {
+    print("Decent vibes!");
+} nahBro {
+    print("No vibes!");
+}

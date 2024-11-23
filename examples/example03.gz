@@ -1,0 +1,39 @@
+vibe myRizz = 10 // declares a variable with value 10
+
+drip showRizz(name string) string {
+    return "Yo " + name + ", you've got the rizz!"
+}
+
+infiniteAura x > 50 {
+    spill("Infinite aura activated, you're untouchable!")
+} lowKey x > 20 {
+    spill("Decent aura, keep grinding!")
+} nahBro {
+    spill("No aura detected, sorry fam!")
+}
+
+grind i := 0; i < 15; i++ {
+    spill("Vibe #" + i + " in the house!")
+}
+
+sus {
+    // risky code, be careful
+    spill("This is a high-risk move!")
+} caughtIn4K {
+    spill("Caught in 4K, bruh. You can't hide from this!")
+}
+
+vibe rizzLevel num = 100
+vibe yourName txt = "Faizan"
+vibe isCool vibeCheck = true
+
+chillFactor calmDown value = 50 // sets a chill level
+
+vibe allGood isCool = true
+noCap allGood {
+    spill("Everything's all good, no worries!")
+} nahBro {
+    spill("Chill, everything's under control!")
+}
+
+infiniteAura cosmicVibe power = 9999999 // Maximum power, totally infinite!

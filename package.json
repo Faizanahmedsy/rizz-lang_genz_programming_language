@@ -1,0 +1,10 @@
+{
+  "name": "genz-lang",
+  "version": "1.0.0",
+  "description": "A minimal Gen Z slang programming language",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node src/run.js"
+  },
+  "dependencies": {}
+}

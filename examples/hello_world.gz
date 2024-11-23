@@ -1,0 +1,8 @@
+vibe rizz = 100
+noCap (rizz > 50) {
+    spill("You got mad rizz!")
+} lowKey (rizz > 20) {
+    spill("Decent rizz, fam.")
+} nahBro {
+    spill("No rizz, bro.")
+}
